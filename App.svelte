@@ -114,7 +114,7 @@
       {/each}
     </ul>
   </nav>
-	{#each articles as article}
+  {#each articles as article}
   <article>
     <h2><a href={article.link} target="_blank">{article.title}</a></h2>
     <h3>{article.date.toLocaleString()}</h3>
