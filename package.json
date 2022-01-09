@@ -8,7 +8,8 @@
     "rollup-plugin-node-resolve": "^4.2.3",
     "rollup-plugin-svelte": "^6.1.1",
     "rollup-plugin-terser": "^4.0.4",
-    "sirv-cli": "^0.3.1"
+    "sirv-cli": "^0.3.1",
+    "stream": "^0.0.2"
   },
   "dependencies": {
     "svelte": "^3.32.3",
