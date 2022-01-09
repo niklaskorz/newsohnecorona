@@ -15,9 +15,9 @@
 
   const feeds = {
     Tagesschau: "https://www.tagesschau.de/xml/rss2/",
-    "SWR Aktuell": "https://www.swr.de/~rss/swraktuell/swraktuell-100.xml",
-    "SWR Aktuell BW": "https://www.swr.de/~rss/swraktuell/swraktuell-bw-100.xml",
-    "SWR Aktuell RP": "https://www.swr.de/~rss/swraktuell/swraktuell-rp-100.xml"
+    SWR: "https://www.swr.de/~rss/swraktuell/swraktuell-100.xml",
+    "SWR BW": "https://www.swr.de/~rss/swraktuell/swraktuell-bw-100.xml",
+    "SWR RP": "https://www.swr.de/~rss/swraktuell/swraktuell-rp-100.xml"
   };
 
   async function getFeed(name) {
