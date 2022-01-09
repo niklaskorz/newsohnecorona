@@ -75,11 +75,14 @@
     background: #555;
   }
 
-  nav > ul > li > a {
+  nav > ul > li > button {
     display: inline-block;
     padding: 10px;
     color: #fff;
     text-decoration: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
   }
 
   article {
@@ -110,7 +113,7 @@
   <nav>
     <ul>
       {#each Object.keys(feeds) as source}
-      <li class={source === selectedSource ? "active" : ""}><a href="#" on:click={() => getFeed(source)}>{source}</a></li>
+      <li class={source === selectedSource ? "active" : ""}><button on:click={() => getFeed(source)}>{source}</button></li>
       {/each}
     </ul>
   </nav>
